@@ -1,9 +1,6 @@
 [build]
-  publish = "public"         # Where the final site will be published
-  command = "hugo"           # The build command (hugo generates the static site)
+  publish = "public"         # Hugo will output the site to the public folder
+  command = "npx hugo"       # Use Hugo from the locally installed `node_modules`
 
 [context.production.environment]
-  HUGO_VERSION = "0.140.2"   # Specify Hugo version
-
-[[plugins]]
-  package = "@netlify/plugin-hugo"
+  HUGO_VERSION = "0.139.0"   # Specify the version of Hugo you're using
