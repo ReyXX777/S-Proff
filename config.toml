@@ -1,10 +1,10 @@
-baseURL = 'https://your-site-name.netlify.app/'  # Or your custom domain
+baseURL = 'https://shreya-singh77.netlify.app/'  # Netlify domain
 languageCode = 'en-us'
 title = 'Shreya Singh'
 
 [params]
-  title_background_image = "img/medical.png"  # Path relative to static/
-  header_image = "img/medical.png"  # Path relative to static/
+  title_background_image = "img/medical.png"  # Path relative to the static/ folder
+  header_image = "img/medical.png"            # Path relative to the static/ folder
 
   # Adding KPC Medical College and Hospital details
   medical_college_address = """
