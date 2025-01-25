@@ -1,0 +1,7 @@
+[build]
+  base = "/"
+  publish = "public"
+  command = "hugo"
+
+[build.environment]
+  HUGO_VERSION = "0.140.2"  # Specify the version of Hugo you want to use
