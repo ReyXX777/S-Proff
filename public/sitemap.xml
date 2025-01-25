@@ -2,36 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:14470/post/</loc>
+    <loc>//localhost:14470/post/</loc>
     <lastmod>2025-01-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:14470/post/readme/</loc>
+    <loc>//localhost:14470/post/readme/</loc>
     <lastmod>2025-01-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:14470/</loc>
+    <loc>//localhost:14470/</loc>
     <lastmod>2025-01-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:14470/post/2017-11-04-istio-install_and_example/</loc>
+    <loc>//localhost:14470/post/2017-11-04-istio-install_and_example/</loc>
     <lastmod>2024-11-04T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:14470/categories/</loc>
+    <loc>//localhost:14470/categories/</loc>
     <lastmod>2024-11-04T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:14470/tags/istio/</loc>
+    <loc>//localhost:14470/tags/istio/</loc>
     <lastmod>2024-11-04T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:14470/tags/</loc>
+    <loc>//localhost:14470/tags/</loc>
     <lastmod>2024-11-04T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:14470/categories/tech/</loc>
+    <loc>//localhost:14470/categories/tech/</loc>
     <lastmod>2024-11-04T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:14470/notes/</loc>
+    <loc>//localhost:14470/notes/</loc>
   </url><url>
-    <loc>http://localhost:14470/search/placeholder/</loc>
+    <loc>//localhost:14470/search/placeholder/</loc>
   </url><url>
-    <loc>http://localhost:14470/archive/</loc>
+    <loc>//localhost:14470/archive/</loc>
   </url><url>
-    <loc>http://localhost:14470/search/</loc>
+    <loc>//localhost:14470/search/</loc>
   </url>
 </urlset>
