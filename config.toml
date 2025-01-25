@@ -1,0 +1,18 @@
+baseURL = 'https://shreya-singh/'
+languageCode = 'en-us'
+title = 'Shreya Singh'
+
+[params]
+  title_background_image = "static/img/medical.png"  # Path relative to static/
+  header_image = "static/img/medical.png"  # Path relative to static/
+
+  # Adding KPC Medical College and Hospital details
+  medical_college_address = """
+  KPC Medical College and Hospital
+  1F, Ratul Lane,
+  Jadavpur, Near 8B Bus Stand,
+  Kolkata – 700032,
+  West Bengal, India.
+  Phone: +91 33 2417 0100 / 2417 0200
+  Website: www.kpcmedicalcollege.com
+  """

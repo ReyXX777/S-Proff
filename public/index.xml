@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shreya Singh</title>
+    <link>http://localhost:14470/</link>
+    <description>Recent content on Shreya Singh</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 25 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:14470/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Professional Summary</title>
+      <link>http://localhost:14470/post/readme/</link>
+      <pubDate>Sat, 25 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:14470/post/readme/</guid>
+      <description>&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;&#xA;&lt;p&gt;Highly motivated and academically distinguished third-year MBBS student at KPC Medical College and Hospital consistently achieving top academic standing within the cohort. Recognized for pioneering research in precision medicine and AI-driven diagnostics on a national level. A dedicated advocate for advancing healthcare through innovative solutions. Possessing a strong foundation in Pathology, Microbiology, and Pharmacology, I strive to excel in both clinical practice and cutting-edge research to significantly impact patient outcomes. Fluent in English, Hindi, and Bengali, I bring a diverse cultural perspective to the field of medicine&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A Day in the Life of a Medical Student: My First Surgery Rotation</title>
+      <link>http://localhost:14470/post/2017-11-04-istio-install_and_example/</link>
+      <pubDate>Mon, 04 Nov 2024 12:00:00 +0000</pubDate>
+      <guid>http://localhost:14470/post/2017-11-04-istio-install_and_example/</guid>
+      <description>&lt;h2 id=&#34;the-morning-hustle&#34;&gt;The Morning Hustle&lt;/h2&gt;&#xA;&lt;p&gt;&#xD;&#xA;  &lt;img src=&#34;http://localhost:14470/img/mask.jpg&#34; alt=&#34;screenshot&#34;&gt;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;The day began at 6:00 AM. I packed my bag with my trusty stethoscope, surgical cap, and a notebook to jot down everything I learned. By 7:00 AM, I was in the hospital, scrubbing in for the morning ward rounds. The surgery department was buzzing with activity—nurses preparing instruments, residents reviewing patient charts, and consultants discussing the day’s cases.&lt;/p&gt;&#xA;&lt;p&gt;During the rounds, I observed how the team meticulously reviewed each patient’s progress. From post-operative care to managing complications, every detail mattered. I was struck by how the surgeons balanced clinical expertise with empathy, reassuring patients and their families with a calm demeanor.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:14470/notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:14470/notes/</guid>
+      <description>&lt;h2 id=&#34;go-语言学习笔记httpszhaohuabingcomlearning-golang&#34;&gt;&lt;a href=&#34;https://zhaohuabing.com/learning-golang&#34;&gt;Go 语言学习笔记&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;h2 id=&#34;envoy-学习笔记httpszhaohuabingcomlearning-envoy&#34;&gt;&lt;a href=&#34;https://zhaohuabing.com/learning-envoy&#34;&gt;Envoy 学习笔记&lt;/a&gt;&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:14470/search/placeholder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:14470/search/placeholder/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Posts Archive</title>
+      <link>http://localhost:14470/archive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:14470/archive/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
