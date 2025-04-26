@@ -1,18 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Shreya Singh</title>
-    <link>//localhost:14470/tags/</link>
-    <description>Recent content in Tags on Shreya Singh</description>
+    <title>Tags on </title>
+    <link>https://shreya-singh77.netlify.app/tags/</link>
+    <description>Recent content in Tags on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Nov 2024 12:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:14470/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 06 Nov 2024 12:00:00 +0000</lastBuildDate>
+    <atom:link href="https://shreya-singh77.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Istio</title>
-      <link>//localhost:14470/tags/istio/</link>
+      <title>Friends</title>
+      <link>https://shreya-singh77.netlify.app/tags/friends/</link>
+      <pubDate>Wed, 06 Nov 2024 12:00:00 +0000</pubDate>
+      <guid>https://shreya-singh77.netlify.app/tags/friends/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fun</title>
+      <link>https://shreya-singh77.netlify.app/tags/fun/</link>
+      <pubDate>Wed, 06 Nov 2024 12:00:00 +0000</pubDate>
+      <guid>https://shreya-singh77.netlify.app/tags/fun/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Preparation</title>
+      <link>https://shreya-singh77.netlify.app/tags/preparation/</link>
+      <pubDate>Wed, 06 Nov 2024 12:00:00 +0000</pubDate>
+      <guid>https://shreya-singh77.netlify.app/tags/preparation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Surgery</title>
+      <link>https://shreya-singh77.netlify.app/tags/surgery/</link>
       <pubDate>Mon, 04 Nov 2024 12:00:00 +0000</pubDate>
-      <guid>//localhost:14470/tags/istio/</guid>
+      <guid>https://shreya-singh77.netlify.app/tags/surgery/</guid>
       <description></description>
     </item>
   </channel>

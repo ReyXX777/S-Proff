@@ -8,7 +8,7 @@ date:    2024-11-04T12:00:00
 author:     "𝓢𝓱𝓻𝓮𝔂𝓪 𝓢𝓲𝓷𝓰𝓱"
 image: "/img/medical.png"
 tags:
-    - Istio
+    - Surgery
 
 categories: [ Tech ]
 ---

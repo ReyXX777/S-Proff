@@ -1,19 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Istio on Shreya Singh</title>
-    <link>//localhost:14470/tags/istio/</link>
-    <description>Recent content in Istio on Shreya Singh</description>
+    <title>Istio on </title>
+    <link>http://localhost:1313/tags/istio/</link>
+    <description>Recent content in Istio on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 04 Nov 2024 12:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:14470/tags/istio/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/istio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Day in the Life of a Medical Student: My First Surgery Rotation</title>
-      <link>//localhost:14470/post/2017-11-04-istio-install_and_example/</link>
+      <link>http://localhost:1313/post/2017-11-04-istio-install_and_example/</link>
       <pubDate>Mon, 04 Nov 2024 12:00:00 +0000</pubDate>
-      <guid>//localhost:14470/post/2017-11-04-istio-install_and_example/</guid>
-      <description>&lt;h2 id=&#34;the-morning-hustle&#34;&gt;The Morning Hustle&lt;/h2&gt;&#xA;&lt;p&gt;&#xD;&#xA;  &lt;img src=&#34;//localhost:14470/img/mask.jpg&#34; alt=&#34;screenshot&#34;&gt;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;The day began at 6:00 AM. I packed my bag with my trusty stethoscope, surgical cap, and a notebook to jot down everything I learned. By 7:00 AM, I was in the hospital, scrubbing in for the morning ward rounds. The surgery department was buzzing with activity—nurses preparing instruments, residents reviewing patient charts, and consultants discussing the day’s cases.&lt;/p&gt;&#xA;&lt;p&gt;During the rounds, I observed how the team meticulously reviewed each patient’s progress. From post-operative care to managing complications, every detail mattered. I was struck by how the surgeons balanced clinical expertise with empathy, reassuring patients and their families with a calm demeanor.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/2017-11-04-istio-install_and_example/</guid>
+      <description>&lt;h2 id=&#34;the-morning-hustle&#34;&gt;The Morning Hustle&lt;/h2&gt;&#xA;&lt;p&gt;&#xD;&#xA;  &lt;img src=&#34;http://localhost:1313/img/mask.jpg&#34; alt=&#34;screenshot&#34;&gt;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;The day began at 6:00 AM. I packed my bag with my trusty stethoscope, surgical cap, and a notebook to jot down everything I learned. By 7:00 AM, I was in the hospital, scrubbing in for the morning ward rounds. The surgery department was buzzing with activity—nurses preparing instruments, residents reviewing patient charts, and consultants discussing the day’s cases.&lt;/p&gt;&#xA;&lt;p&gt;During the rounds, I observed how the team meticulously reviewed each patient’s progress. From post-operative care to managing complications, every detail mattered. I was struck by how the surgeons balanced clinical expertise with empathy, reassuring patients and their families with a calm demeanor.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>谈谈微服务架构中的基础设施：Service Mesh与Istio</title>
+      <link>http://localhost:1313/2018/03/29/what-is-service-mesh-and-istio/</link>
+      <pubDate>Fri, 01 Nov 2024 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2018/03/29/what-is-service-mesh-and-istio/</guid>
+      <description>&lt;h2 id=&#34;微服务架构的演进&#34;&gt;微服务架构的演进&lt;/h2&gt;&#xA;&lt;p&gt;作为一种架构模式，微服务将复杂系统切分为数十乃至上百个小服务，每个服务负责实现一个独立的业务逻辑。这些小服务易于被小型的软件工程师团队所理解和修改，并带来了语言和框架选择灵活性，缩短应用开发上线时间，可根据不同的工作负载和资源要求对服务进行独立缩扩容等优势。&lt;/p&gt;&#xA;&lt;p&gt;另一方面，当应用被拆分为多个微服务进程后，进程内的方法调用变成了了进程间的远程调用。引入了对大量服务的连接、管理和监控的复杂性。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

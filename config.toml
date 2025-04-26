@@ -1,10 +1,10 @@
 baseURL = 'https://shreya-singh77.netlify.app/'  # Netlify domain
 languageCode = 'en-us'
-title = 'Shreya Singh'
+title = ''
 
 [params]
-  title_background_image = "img/medical.png"  # Path relative to the static/ folder
-  header_image = "img/medical.png"            # Path relative to the static/ folder
+  title_background_image = "img/medicalIntro.png"  # Path relative to the static/ folder
+  header_image = "img/medicalIntro.png"            # Path relative to the static/ folder
 
   # Adding KPC Medical College and Hospital details
   medical_college_address = """

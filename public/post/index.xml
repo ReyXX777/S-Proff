@@ -1,26 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Shreya Singh</title>
-    <link>//localhost:14470/post/</link>
-    <description>Recent content in Posts on Shreya Singh</description>
+    <title>Posts on </title>
+    <link>https://shreya-singh77.netlify.app/post/</link>
+    <description>Recent content in Posts on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 25 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:14470/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://shreya-singh77.netlify.app/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Professional Summary</title>
-      <link>//localhost:14470/post/readme/</link>
+      <link>https://shreya-singh77.netlify.app/post/readme/</link>
       <pubDate>Sat, 25 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:14470/post/readme/</guid>
+      <guid>https://shreya-singh77.netlify.app/post/readme/</guid>
       <description>&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;&#xA;&lt;p&gt;Highly motivated and academically distinguished third-year MBBS student at KPC Medical College and Hospital consistently achieving top academic standing within the cohort. Recognized for pioneering research in precision medicine and AI-driven diagnostics on a national level. A dedicated advocate for advancing healthcare through innovative solutions. Possessing a strong foundation in Pathology, Microbiology, and Pharmacology, I strive to excel in both clinical practice and cutting-edge research to significantly impact patient outcomes. Fluent in English, Hindi, and Bengali, I bring a diverse cultural perspective to the field of medicine&lt;/p&gt;</description>
     </item>
     <item>
+      <title>A journey through wisdom, insights, and preparation tales.</title>
+      <link>https://shreya-singh77.netlify.app/post/2018-03-29-what-is-service-mesh-and-istio/</link>
+      <pubDate>Wed, 06 Nov 2024 12:00:00 +0000</pubDate>
+      <guid>https://shreya-singh77.netlify.app/post/2018-03-29-what-is-service-mesh-and-istio/</guid>
+      <description>&lt;h2 id=&#34;my-preparation-materials&#34;&gt;My Preparation Materials&lt;/h2&gt;&#xA;&lt;p&gt;&#xD;&#xA;  &lt;img src=&#34;https://shreya-singh77.netlify.app/img/lift1.jpeg&#34; alt=&#34;&#34;&gt;&#xD;&#xA;&#xD;&#xA;&#xA;Preparing for NEET PG isn’t just about hard work — it’s about being smart with your resources. I try to carefully manage which materials I use for each subject, depending on what fits best. Personally, I prefer Marrow videos and notes as my core resources, but I also make sure to explore other valuable content from BTR and various free online tutorials and courses.&lt;/p&gt;&#xA;&lt;p&gt;To crack NEET PG, you have to be focused, passionate, and wise in your preparation choices. It&amp;rsquo;s not just about what you study, but how you approach it.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>A Day in the Life of a Medical Student: My First Surgery Rotation</title>
-      <link>//localhost:14470/post/2017-11-04-istio-install_and_example/</link>
+      <link>https://shreya-singh77.netlify.app/post/2017-11-04-istio-install_and_example/</link>
       <pubDate>Mon, 04 Nov 2024 12:00:00 +0000</pubDate>
-      <guid>//localhost:14470/post/2017-11-04-istio-install_and_example/</guid>
-      <description>&lt;h2 id=&#34;the-morning-hustle&#34;&gt;The Morning Hustle&lt;/h2&gt;&#xA;&lt;p&gt;&#xD;&#xA;  &lt;img src=&#34;//localhost:14470/img/mask.jpg&#34; alt=&#34;screenshot&#34;&gt;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;The day began at 6:00 AM. I packed my bag with my trusty stethoscope, surgical cap, and a notebook to jot down everything I learned. By 7:00 AM, I was in the hospital, scrubbing in for the morning ward rounds. The surgery department was buzzing with activity—nurses preparing instruments, residents reviewing patient charts, and consultants discussing the day’s cases.&lt;/p&gt;&#xA;&lt;p&gt;During the rounds, I observed how the team meticulously reviewed each patient’s progress. From post-operative care to managing complications, every detail mattered. I was struck by how the surgeons balanced clinical expertise with empathy, reassuring patients and their families with a calm demeanor.&lt;/p&gt;</description>
+      <guid>https://shreya-singh77.netlify.app/post/2017-11-04-istio-install_and_example/</guid>
+      <description>&lt;h2 id=&#34;the-morning-hustle&#34;&gt;The Morning Hustle&lt;/h2&gt;&#xA;&lt;p&gt;&#xD;&#xA;  &lt;img src=&#34;https://shreya-singh77.netlify.app/img/mask.jpg&#34; alt=&#34;screenshot&#34;&gt;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;The day began at 6:00 AM. I packed my bag with my trusty stethoscope, surgical cap, and a notebook to jot down everything I learned. By 7:00 AM, I was in the hospital, scrubbing in for the morning ward rounds. The surgery department was buzzing with activity—nurses preparing instruments, residents reviewing patient charts, and consultants discussing the day’s cases.&lt;/p&gt;&#xA;&lt;p&gt;During the rounds, I observed how the team meticulously reviewed each patient’s progress. From post-operative care to managing complications, every detail mattered. I was struck by how the surgeons balanced clinical expertise with empathy, reassuring patients and their families with a calm demeanor.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

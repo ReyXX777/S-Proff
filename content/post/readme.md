@@ -21,11 +21,11 @@ Bachelor of Medicine, Bachelor of Surgery (MBBS)
 KPC Medical College and Hospital | West Bengal University of Health Sciences
 2021 – Present (Expected Graduation: 2026)
 
-Rank: 1st in Cohort (Consistently Top Performer)
+Rank: (Consistently Top Performer)
 
 CGPA: 4.0/4.0
 
-3rd Professional MBBS (2024 - 2025):
+3rd Professional MBBS II (2025 - 2026):
 
 ````toml
 Medicine
