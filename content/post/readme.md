@@ -2,7 +2,7 @@
 layout:     post
 title:      "Professional Summary"
 subtitle:   "A Glimpse into My Career"
-date:       2025-01-25
+date:       2025-04-25
 author:     "𝓢𝓱𝓻𝓮𝔂𝓪 𝓢𝓲𝓷𝓰𝓱"
 image:      "/img/medical.png" 
 ---
@@ -23,9 +23,26 @@ KPC Medical College and Hospital | West Bengal University of Health Sciences
 
 Rank: (Consistently Top Performer)
 
-CGPA: 4.0/4.0
+4th Professional MBBS II (2025 - 2026):
 
-3rd Professional MBBS II (2025 - 2026):
+````toml
+Community Medicine
+"Acquired a strong foundation in public health principles, epidemiology,
+and preventive medicine. Conducted community health surveys, participated in immunization drives,
+and developed strategies for health promotion and disease prevention at the population level.
+Gained experience in analyzing health indicators, managing healthcare data, and implementing
+interventions to address local health challenges. Worked closely with healthcare teams to promote
+awareness, sanitation, nutrition, and environmental health in underserved communities."
+````
+````toml
+Forensic Medicine and Toxicology
+"Learned to apply medical knowledge in legal contexts, including postmortem examinations, 
+injury assessment, and age estimation. Gained insight into the medico-legal aspects of trauma, 
+sexual assault, and sudden deaths. Studied the principles of toxicology, including the effects, 
+diagnosis, and management of common poisons. Participated in mock courtrooms to understand 
+expert testimony and legal procedures. Developed a thorough understanding of documentation 
+and chain-of-custody protocols in handling medicolegal cases."
+````
 
 ````toml
 Medicine

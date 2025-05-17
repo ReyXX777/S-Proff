@@ -6,8 +6,15 @@
     <description>Recent content in Tech on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 Nov 2024 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Apr 2025 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://shreya-singh77.netlify.app/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>When the Doctor Becomes the Patient</title>
+      <link>https://shreya-singh77.netlify.app/post/2018-06-04-introducing-the-istio-v1alpha3-routing-api/</link>
+      <pubDate>Tue, 22 Apr 2025 12:00:00 +0000</pubDate>
+      <guid>https://shreya-singh77.netlify.app/post/2018-06-04-introducing-the-istio-v1alpha3-routing-api/</guid>
+      <description>&lt;p&gt;As doctors, we are trained to be warriors of science — armed with stethoscopes, clinical precision, and the unshakable calm that’s expected of us. We learn to silence our fears, suppress our emotions, and steel ourselves against the pain of others. We are taught how to heal. But nothing — no textbook, no lecture, no residency rotation — prepares us for the day we are the ones lying in the hospital bed. The day the healer becomes the wounded. The doctor becomes the patient.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>A journey through wisdom, insights, and preparation tales.</title>
       <link>https://shreya-singh77.netlify.app/post/2018-03-29-what-is-service-mesh-and-istio/</link>
