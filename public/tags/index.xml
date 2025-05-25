@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on </title>
-    <link>https://shreya-singh77.netlify.app/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 22 Apr 2025 12:00:00 +0000</lastBuildDate>
-    <atom:link href="https://shreya-singh77.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Empathy</title>
-      <link>https://shreya-singh77.netlify.app/tags/empathy/</link>
+      <link>http://localhost:1313/tags/empathy/</link>
       <pubDate>Tue, 22 Apr 2025 12:00:00 +0000</pubDate>
-      <guid>https://shreya-singh77.netlify.app/tags/empathy/</guid>
+      <guid>http://localhost:1313/tags/empathy/</guid>
       <description></description>
     </item>
     <item>
       <title>Medical Journey</title>
-      <link>https://shreya-singh77.netlify.app/tags/medical-journey/</link>
+      <link>http://localhost:1313/tags/medical-journey/</link>
       <pubDate>Tue, 22 Apr 2025 12:00:00 +0000</pubDate>
-      <guid>https://shreya-singh77.netlify.app/tags/medical-journey/</guid>
+      <guid>http://localhost:1313/tags/medical-journey/</guid>
       <description></description>
     </item>
     <item>
       <title>Vulnerability</title>
-      <link>https://shreya-singh77.netlify.app/tags/vulnerability/</link>
+      <link>http://localhost:1313/tags/vulnerability/</link>
       <pubDate>Tue, 22 Apr 2025 12:00:00 +0000</pubDate>
-      <guid>https://shreya-singh77.netlify.app/tags/vulnerability/</guid>
+      <guid>http://localhost:1313/tags/vulnerability/</guid>
       <description></description>
     </item>
     <item>
       <title>Friends</title>
-      <link>https://shreya-singh77.netlify.app/tags/friends/</link>
+      <link>http://localhost:1313/tags/friends/</link>
       <pubDate>Wed, 06 Nov 2024 12:00:00 +0000</pubDate>
-      <guid>https://shreya-singh77.netlify.app/tags/friends/</guid>
+      <guid>http://localhost:1313/tags/friends/</guid>
       <description></description>
     </item>
     <item>
       <title>Fun</title>
-      <link>https://shreya-singh77.netlify.app/tags/fun/</link>
+      <link>http://localhost:1313/tags/fun/</link>
       <pubDate>Wed, 06 Nov 2024 12:00:00 +0000</pubDate>
-      <guid>https://shreya-singh77.netlify.app/tags/fun/</guid>
+      <guid>http://localhost:1313/tags/fun/</guid>
       <description></description>
     </item>
     <item>
       <title>Preparation</title>
-      <link>https://shreya-singh77.netlify.app/tags/preparation/</link>
+      <link>http://localhost:1313/tags/preparation/</link>
       <pubDate>Wed, 06 Nov 2024 12:00:00 +0000</pubDate>
-      <guid>https://shreya-singh77.netlify.app/tags/preparation/</guid>
+      <guid>http://localhost:1313/tags/preparation/</guid>
       <description></description>
     </item>
     <item>
       <title>Surgery</title>
-      <link>https://shreya-singh77.netlify.app/tags/surgery/</link>
+      <link>http://localhost:1313/tags/surgery/</link>
       <pubDate>Mon, 04 Nov 2024 12:00:00 +0000</pubDate>
-      <guid>https://shreya-singh77.netlify.app/tags/surgery/</guid>
+      <guid>http://localhost:1313/tags/surgery/</guid>
       <description></description>
     </item>
   </channel>
