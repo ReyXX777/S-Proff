@@ -2,97 +2,99 @@
 <div data-pagefind-ignore="all" class="posts-container">
 {{ range $index, $element := $.Paginator.Pages }}
 <article class="post-preview" data-aos="fade-up" data-aos-delay="{{ mul $index 100 }}">
-    <a href="{{ .Permalink }}" class="post-link">
-        <div class="post-content-wrapper">
-            <header class="post-header">
-                <h2 class="post-title">
-                    {{ .Title }}
-                </h2>
-                {{with .Params.subtitle }}
-                <h3 class="post-subtitle">
-                    {{ . }}
-                </h3>
-                {{ end }}
-            </header>
-            
-            <div class="post-content-preview">
-                {{ with .Description }}
-                    {{ . }}
-                {{ else }}
-                    {{ .Summary}}
-                {{ end }}
-            </div>
-            
-            <div class="read-more-indicator">
-                <span>Read Article</span>
-                <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M5 12h14m-7-7 7 7-7 7"/>
-                </svg>
-            </div>
-        </div>
-        
-        <div class="post-visual">
-            <div class="post-number">{{ printf "%02d" (add $index 1) }}</div>
-            <div class="butterfly-icon">
-                <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                    <defs>
-                        <linearGradient id="butterflyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                            <stop offset="0%" style="stop-color:#4f46e5"/>
-                            <stop offset="50%" style="stop-color:#7c3aed"/>
-                            <stop offset="100%" style="stop-color:#ec4899"/>
-                        </linearGradient>
-                    </defs>
-                    <!-- Butterfly body -->
-                    <ellipse cx="50" cy="50" rx="2" ry="25" fill="#374151"/>
-                    <!-- Upper wings -->
-                    <ellipse cx="35" cy="35" rx="12" ry="15" transform="rotate(-20 35 35)"/>
-                    <ellipse cx="65" cy="35" rx="12" ry="15" transform="rotate(20 65 35)"/>
-                    <!-- Lower wings -->
-                    <ellipse cx="38" cy="60" rx="8" ry="12" transform="rotate(-15 38 60)"/>
-                    <ellipse cx="62" cy="60" rx="8" ry="12" transform="rotate(15 62 60)"/>
-                    <!-- Wing spots -->
-                    <circle cx="35" cy="32" r="3" fill="#fff" opacity="0.3"/>
-                    <circle cx="65" cy="32" r="3" fill="#fff" opacity="0.3"/>
-                    <circle cx="38" cy="58" r="2" fill="#fff" opacity="0.3"/>
-                    <circle cx="62" cy="58" r="2" fill="#fff" opacity="0.3"/>
-                    <!-- Antennae -->
-                    <path d="M46 25 Q44 20 42 18" stroke="#374151" stroke-width="1.5" fill="none"/>
-                    <path d="M54 25 Q56 20 58 18" stroke="#374151" stroke-width="1.5" fill="none"/>
-                    <circle cx="42" cy="18" r="1.5" fill="#374151"/>
-                    <circle cx="58" cy="18" r="1.5" fill="#374151"/>
-                </svg>
-            </div>
-        </div>
-    </a>
-    
-    <footer class="post-meta">
-        {{ if .Params.metadata }}
-            {{ range $index, $element := .Params.metadata }}
-                {{ if .link }}
-                    <a href="{{ .link }}" class="meta-link">{{ .text }}</a>
-                {{ else }}
-                    <span class="meta-text">{{ .text }}</span>
-                {{ end }}
-            {{ end }}
-        {{ else }}
-            <div class="meta-author">
-                <svg class="author-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"/>
-                    <path d="m15 5 4 4"/>
-                </svg>
-                <span>Posted by {{ with .Params.author }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}</span>
-            </div>
-            <time class="meta-date" datetime="{{ .Date.Format "2006-01-02" }}">
-                {{ .Date.Format "Monday, January 2, 2006" }}
-            </time>
-            <!-- Don't show "Last Modified on" if update happened on the same day. -->
-            {{ if (and (not .Lastmod.IsZero) (not (eq (dateFormat "2006-01-02" .Lastmod) (dateFormat "2006-01-02" .Date)))) }}
-                <div class="meta-updated">
-                    Last Modified on {{ dateFormat "Monday, January 2, 2006" .Params.LastMod }}
+    <div class="post-border-wrapper">
+        <a href="{{ .Permalink }}" class="post-link">
+            <div class="post-content-wrapper">
+                <header class="post-header">
+                    <h2 class="post-title">
+                        {{ .Title }}
+                    </h2>
+                    {{with .Params.subtitle }}
+                    <h3 class="post-subtitle">
+                        {{ . }}
+                    </h3>
+                    {{ end }}
+                </header>
+                
+                <div class="post-content-preview">
+                    {{ with .Description }}
+                        {{ . }}
+                    {{ else }}
+                        {{ .Summary}}
+                    {{ end }}
                 </div>
+                
+                <div class="read-more-indicator">
+                    <span>Read Article</span>
+                    <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14m-7-7 7 7-7 7"/>
+                    </svg>
+                </div>
+            </div>
+            
+            <div class="post-visual">
+                <div class="post-number">{{ printf "%02d" (add $index 1) }}</div>
+                <div class="butterfly-icon">
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="butterflyGradient{{ $index }}" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#4f46e5"/>
+                                <stop offset="50%" style="stop-color:#7c3aed"/>
+                                <stop offset="100%" style="stop-color:#ec4899"/>
+                            </linearGradient>
+                        </defs>
+                        <!-- Butterfly body -->
+                        <ellipse cx="50" cy="50" rx="2" ry="25" fill="#374151"/>
+                        <!-- Upper wings -->
+                        <ellipse cx="35" cy="35" rx="12" ry="15" transform="rotate(-20 35 35)" fill="url(#butterflyGradient{{ $index }})"/>
+                        <ellipse cx="65" cy="35" rx="12" ry="15" transform="rotate(20 65 35)" fill="url(#butterflyGradient{{ $index }})"/>
+                        <!-- Lower wings -->
+                        <ellipse cx="38" cy="60" rx="8" ry="12" transform="rotate(-15 38 60)" fill="url(#butterflyGradient{{ $index }})"/>
+                        <ellipse cx="62" cy="60" rx="8" ry="12" transform="rotate(15 62 60)" fill="url(#butterflyGradient{{ $index }})"/>
+                        <!-- Wing spots -->
+                        <circle cx="35" cy="32" r="3" fill="#fff" opacity="0.3"/>
+                        <circle cx="65" cy="32" r="3" fill="#fff" opacity="0.3"/>
+                        <circle cx="38" cy="58" r="2" fill="#fff" opacity="0.3"/>
+                        <circle cx="62" cy="58" r="2" fill="#fff" opacity="0.3"/>
+                        <!-- Antennae -->
+                        <path d="M46 25 Q44 20 42 18" stroke="#374151" stroke-width="1.5" fill="none"/>
+                        <path d="M54 25 Q56 20 58 18" stroke="#374151" stroke-width="1.5" fill="none"/>
+                        <circle cx="42" cy="18" r="1.5" fill="#374151"/>
+                        <circle cx="58" cy="18" r="1.5" fill="#374151"/>
+                    </svg>
+                </div>
+            </div>
+        </a>
+        
+        <footer class="post-meta">
+            {{ if .Params.metadata }}
+                {{ range $index, $element := .Params.metadata }}
+                    {{ if .link }}
+                        <a href="{{ .link }}" class="meta-link">{{ .text }}</a>
+                    {{ else }}
+                        <span class="meta-text">{{ .text }}</span>
+                    {{ end }}
+                {{ end }}
+            {{ else }}
+                <div class="meta-author">
+                    <svg class="author-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"/>
+                        <path d="m15 5 4 4"/>
+                    </svg>
+                    <span>Posted by {{ with .Params.author }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}</span>
+                </div>
+                <time class="meta-date" datetime="{{ .Date.Format "2006-01-02" }}">
+                    {{ .Date.Format "Monday, January 2, 2006" }}
+                </time>
+                <!-- Don't show "Last Modified on" if update happened on the same day. -->
+                {{ if (and (not .Lastmod.IsZero) (not (eq (dateFormat "2006-01-02" .Lastmod) (dateFormat "2006-01-02" .Date)))) }}
+                    <div class="meta-updated">
+                        Last Modified on {{ dateFormat "Monday, January 2, 2006" .Params.LastMod }}
+                    </div>
+                {{ end }}
             {{ end }}
-        {{ end }}
-    </footer>
+        </footer>
+    </div>
 </article>
 {{ end }}
 </div>
@@ -103,40 +105,114 @@
     margin: 0 auto;
     padding: 2rem;
     display: grid;
-    gap: 2rem;
+    gap: 2.5rem;
 }
 
 .post-preview {
-    background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 100%);
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255,255,255,0.1);
-    border-radius: 24px;
-    padding: 2rem;
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
-    overflow: hidden;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.post-preview::before {
+.post-border-wrapper {
+    position: relative;
+    background: linear-gradient(135deg, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.9) 100%);
+    backdrop-filter: blur(20px);
+    border-radius: 28px;
+    padding: 3px;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 
+        0 8px 32px rgba(0,0,0,0.12),
+        0 2px 16px rgba(0,0,0,0.08),
+        inset 0 1px 0 rgba(255,255,255,0.9);
+}
+
+.post-border-wrapper::before {
     content: '';
     position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
-    transition: left 0.6s ease;
+    inset: 0;
+    padding: 3px;
+    background: linear-gradient(135deg, 
+        #4f46e5 0%, 
+        #7c3aed 25%, 
+        #ec4899 50%, 
+        #f59e0b 75%, 
+        #10b981 100%);
+    border-radius: 28px;
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask-composite: xor;
+    -webkit-mask-composite: xor;
+    opacity: 0.6;
+    transition: all 0.4s ease;
+    background-size: 400% 400%;
+    animation: gradientShift 8s ease infinite;
 }
 
-.post-preview:hover::before {
-    left: 100%;
+.post-border-wrapper::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, 
+        rgba(79, 70, 229, 0.1) 0%, 
+        rgba(124, 58, 237, 0.1) 25%, 
+        rgba(236, 72, 153, 0.1) 50%, 
+        rgba(245, 158, 11, 0.1) 75%, 
+        rgba(16, 185, 129, 0.1) 100%);
+    border-radius: 25px;
+    opacity: 0;
+    transition: all 0.4s ease;
+    pointer-events: none;
+}
+
+.post-preview:hover .post-border-wrapper::before {
+    opacity: 1;
+    padding: 4px;
+    animation: borderGlow 2s ease-in-out infinite alternate, gradientShift 2s ease infinite;
+}
+
+.post-preview:hover .post-border-wrapper::after {
+    opacity: 1;
+}
+
+@keyframes borderGlow {
+    0% {
+        box-shadow: 
+            0 0 20px rgba(79, 70, 229, 0.3),
+            0 0 40px rgba(124, 58, 237, 0.2),
+            0 0 60px rgba(236, 72, 153, 0.1);
+    }
+    100% {
+        box-shadow: 
+            0 0 30px rgba(79, 70, 229, 0.4),
+            0 0 60px rgba(124, 58, 237, 0.3),
+            0 0 90px rgba(236, 72, 153, 0.2);
+    }
+}
+
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
 }
 
 .post-preview:hover {
-    transform: translateY(-8px);
-    background: linear-gradient(135deg, rgba(255,255,255,0.15) 0%, rgba(255,255,255,0.08) 100%);
-    border-color: rgba(255,255,255,0.2);
-    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    transform: translateY(-12px) scale(1.02);
+}
+
+.post-preview:hover .post-border-wrapper {
+    box-shadow: 
+        0 25px 60px rgba(0,0,0,0.25),
+        0 8px 30px rgba(0,0,0,0.15),
+        0 0 0 1px rgba(255,255,255,0.5),
+        inset 0 1px 0 rgba(255,255,255,1);
+}
+
+.post-border-wrapper > * {
+    position: relative;
+    z-index: 1;
+    background: linear-gradient(135deg, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.9) 100%);
+    border-radius: 25px;
+    padding: 2rem;
+    margin: 0;
 }
 
 .post-link {
@@ -145,6 +221,7 @@
     display: flex;
     gap: 2rem;
     align-items: flex-start;
+    transition: all 0.3s ease;
 }
 
 .post-content-wrapper {
@@ -165,7 +242,10 @@
 }
 
 .post-preview:hover .post-title {
-    color: #6ab6e5;
+    background: linear-gradient(135deg, #4f46e5, #7c3aed, #ec4899);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .post-subtitle {
@@ -198,6 +278,10 @@
 .post-preview:hover .read-more-indicator {
     opacity: 1;
     transform: translateX(0);
+    background: linear-gradient(135deg, #ec4899, #7c3aed);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .arrow-icon {
@@ -228,7 +312,10 @@
 }
 
 .post-preview:hover .post-number {
-    color: #bc278d;
+    background: linear-gradient(135deg, #4f46e5, #ec4899);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
     transform: scale(1.1);
 }
 
@@ -243,17 +330,16 @@
 .butterfly-icon svg {
     width: 100%;
     height: 100%;
-    fill: url(#butterflyGradient);
 }
 
 .post-preview:hover .butterfly-icon {
     opacity: 1;
     transform: scale(1.2) rotate(5deg);
-    filter: drop-shadow(0 4px 16px rgba(184, 26, 178, 0.4));
+    filter: drop-shadow(0 8px 25px rgba(184, 26, 178, 0.4));
 }
 
 .post-meta {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     padding-top: 1.5rem;
     border-top: 1px solid rgba(0,0,0,0.1);
     display: flex;
@@ -263,6 +349,10 @@
     gap: 1rem;
     font-size: 0.85rem;
     color: #6b7280;
+    background: none !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    border-radius: 0 !important;
 }
 
 .meta-author {
@@ -309,10 +399,10 @@
 @media (max-width: 768px) {
     .posts-container {
         padding: 1rem;
-        gap: 1.5rem;
+        gap: 2rem;
     }
     
-    .post-preview {
+    .post-border-wrapper > * {
         padding: 1.5rem;
     }
     
